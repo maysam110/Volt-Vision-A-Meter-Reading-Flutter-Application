@@ -1,0 +1,15 @@
+"Volt Vision" is a final year project aimed at developing an AI-based electric meter reading application, utilizing machine learning (ML) and YOLO (You Only Look Once) technology to automate and streamline the process of meter data collection and analysis. The application, built using Flutter, serves as a user-friendly platform for electricity providers, facilities managers, energy auditors, and consumers to monitor and manage electricity consumption with efficiency and accuracy.
+
+The core of the project revolves around integrating advanced computer vision techniques and ML algorithms into an intuitive mobile application. The YOLO model is employed to identify meter readings from images of electric meters, making it possible for users to capture accurate data without manual intervention. Machine learning models analyze and predict electricity consumption trends, offering valuable insights and recommendations to optimize usage and reduce costs. The application also features essential functions like user account management, notification alerts, bill generation, and secure data handling.
+
+The "Volt Vision" project is built on a solid dataset curated for electric meter reading, which is used to train the AI model for image recognition and electricity consumption analysis. The dataset, along with the source code, has not been uploaded to any public repositories due to university rights and intellectual property policies. However, all relevant documentation detailing the project development, algorithms, models, and results has been made available for review. This ensures transparency and understanding of the project's structure and the techniques involved while adhering to university regulations.
+
+The project's goal is to provide an automated solution that reduces human error, increases efficiency, and improves the overall experience for electricity providers and users alike. It represents a step forward in leveraging cutting-edge technologies to address real-world challenges in the energy sector.
+
+
+
+
+
+
+
+
