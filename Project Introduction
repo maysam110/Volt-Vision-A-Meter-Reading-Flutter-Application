@@ -1,0 +1,73 @@
+# Volt Vision: Automated Electricity Meter Reading System
+
+## Overview
+
+**Volt Vision** is an AI-powered application that automates the process of electricity meter reading using advanced image processing and machine learning techniques. By integrating **YOLO V8** (You Only Look Once) for object detection and **OCR** (Optical Character Recognition) for digit recognition, this system can accurately read and interpret electricity meter readings from images. Designed to improve efficiency, accuracy, and transparency, this solution aims to modernize utility management systems, providing significant benefits to both utility providers and consumers.
+
+## Key Features
+
+- **Automated Meter Reading:** Uses YOLO V8 to detect and extract meter digits from images of electricity meters.
+- **Fast OCR for Digit Recognition:** Processes images captured under varying lighting conditions, meter types, and angles, ensuring accurate readings.
+- **Machine Learning:** Trains models to improve performance and handle small object detection in real-world scenarios.
+- **Real-time Processing:** Quickly and accurately processes images for faster meter reading and billing.
+- **User-friendly Interface:** Developed with Flutter for cross-platform compatibility (iOS and Android).
+
+## Problem Statement
+
+Traditional manual electricity meter reading is time-consuming, error-prone, and inefficient. It requires workers to physically visit meters, which can be problematic in densely populated or hard-to-reach areas. Moreover, this process is susceptible to human error and data tampering, leading to inaccurate readings and unfair billing. The Volt Vision project aims to automate this process, improving accuracy, reducing errors, and increasing operational efficiency.
+
+## Dataset
+
+The dataset consists of multiple images of electricity meters captured in various real-world conditions. These images are used to train and evaluate the object detection and OCR models. The data was curated to cover different meter designs, environmental conditions, and lighting variations to ensure robustness and generalization of the system.
+
+> **Note:** Due to university rights and intellectual property policies, the source code, dataset, and application are not publicly available. However, all relevant project documentation and reports are shared here.
+
+## Installation
+
+### Prerequisites
+
+- Flutter (for mobile app development)
+- Python (for machine learning and image processing)
+- YOLO V8 (for object detection)
+- OpenCV (for image manipulation and processing)
+- Tesseract OCR (for digit recognition)
+
+## Usage
+
+1. **Image Capture:** The user takes a photo of the electricity meter using the mobile app.
+2. **Object Detection:** YOLO V8 detects the meter and its digits.
+3. **Digit Recognition:** OCR extracts the digits from the detected meter area.
+4. **Results:** The app displays the detected meter reading, saving it for future reference and billing.
+
+## Evaluation
+
+The system has been evaluated with real-world data, achieving 91% accuracy in meter digit recognition. The results demonstrate the effectiveness of the system in different environmental conditions, including varied lighting and meter types.
+
+## Benefits
+
+- **Improved Accuracy:** Reduces human error in manual readings.
+- **Faster Processing:** Speeds up the meter reading process for utility providers.
+- **Increased Transparency:** Ensures fair and accurate billing for consumers.
+- **Cost Savings:** Reduces operational costs associated with manual readings.
+
+## Challenges
+
+- Handling poor lighting conditions and different meter designs.
+- Processing images with small or blurred digits.
+
+## Future Work
+
+- **Model Improvement:** Enhance the accuracy and robustness of the model, especially under difficult conditions.
+- **Real-time Integration:** Deploy the solution for real-time use by utility providers.
+- **Scalability:** Expand the system to handle a larger variety of meters and more complex scenarios.
+
+## Acknowledgements
+
+- YOLO V8 for object detection
+- Tesseract OCR for digit recognition
+- Flutter for cross-platform mobile app development
+
+
+## Contact
+
+For further inquiries, feel free to reach out to [maysam.asad110@gmail.com].
